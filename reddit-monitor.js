@@ -27,7 +27,7 @@ setInterval(function() {
     text.innerHTML = hours + ':' + text.innerHTML;
   }
 
-  if(minutes % 5 == 0 && seconds == 0) {
+  if(minutes % 5 == 0 && seconds == 0 && !document.hidden) {
     alert('You have spent ' + minutes + ' minutes on reddit');
   }
 }, 1000);
