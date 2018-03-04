@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Reddit Monitor",
-  "version": "0.1",
+  "version": "0.2",
   "content_scripts": [
-  {
-    "matches": [
-      "http://www.reddit.com/*", "https://www.reddit.com/*"
-    ],
-    "js": ["reddit-monitor.js"]
-  }
-]
+    {
+      "matches": [
+        "http://www.reddit.com/*", "https://www.reddit.com/*"
+      ],
+      "js": ["reddit-monitor.js"]
+    }
+  ]
 }
