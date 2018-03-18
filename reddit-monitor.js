@@ -37,7 +37,7 @@ function updateClock() {
       text.innerHTML = hours + ':' + text.innerHTML;
     }
 
-    if(minutes % 5 == 0 && seconds == 0 && elapsed != 0) {
+    if(minutes % 5 == 0 && seconds == 0 && minutes != 0) {
       alert('You have spent ' + (60*hours + minutes) + ' minutes on reddit');
     }
   }
